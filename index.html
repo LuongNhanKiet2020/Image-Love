@@ -8,8 +8,14 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
 
-  <body>
-      <audio src="./music/music.mp3" autoplay></audio>
+  <body onload="loadSound()">
+    <script>
+      function loadSound(){
+        var audio = new Audio('music/music.mp3');
+        audio.play();
+      }
+    </script>
+      <!-- <audio src="./music/music.mp3" autoplay></audio> -->
     <!-- 星空html -->
     <!-- <div> -->
     <div class="container2">
@@ -31,5 +37,6 @@
     <script src="js/main.js"></script>
     <script src="js/particle.js"></script>
     <script src="js/universe.js"></script>
+
   </body>
 </html>

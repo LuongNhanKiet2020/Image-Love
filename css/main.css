@@ -26,7 +26,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   left: 50%;
   top: 42%;
   transform: translateX(-50%) translateY(-50%);
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   text-align: center;
   width: 100%;
 }
@@ -182,8 +182,8 @@ img {
   /* width: 200px; */
   aspect-ratio: 1;
   object-fit: cover;
-  --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
+  --_m: radial-gradient(#000 100%, #0000 70%) 84.5% fill/100%;
   -webkit-mask-box-image: var(--_m);
   mask-border: var(--_m);
-  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+  /* clip-path: polygon(-41% 0, 50% 91%, 141% 0); */
 }
